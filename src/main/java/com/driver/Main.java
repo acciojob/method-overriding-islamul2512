@@ -6,7 +6,7 @@ public class Main {
             return "Invoking method from class A";
         }
     }
-     static class B extends A {
+     public static class B extends A {
         // Method overridden from Class A
         @Override
         public String meth() {

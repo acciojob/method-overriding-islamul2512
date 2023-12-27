@@ -17,8 +17,8 @@ public class Main {
         B objB = new B();
         System.out.println(objB.meth());
         // Calling method from class A using objB
-        String resultA = objB.meth(); // Will call the overridden method in Class B
-        System.out.println("Result from method of Class A called by objB: " + resultA);
+        B resultA = new B(); // Will call the overridden method in Class B
+        System.out.println("Result from method of Class A called by objB: " + resultA.meth());
 
     }
   
